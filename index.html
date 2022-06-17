@@ -128,21 +128,7 @@
     </style>
 </head>
 
-<body class="staticrypt-body">
-	
-	<h1><button onclick="myfunction()"> SHOW ALL DATA</button></h1></center>
-	<script>    function myfunction(){
 
-
-        db.collection("data").get().then((querySnapshot) => {
-  querySnapshot.forEach((doc) => {
-      // doc.data() is never undefined for query doc snapshots
-      console.log(doc.data());
-  });
-});
-
-    }
-</script>
 	
 <div class="staticrypt-page">
     <div class="staticrypt-form">
